@@ -1,0 +1,33 @@
+{
+  "name": "@skalenetwork/marionette-interfaces",
+  "version": "0.0.0",
+  "description": "Definitions of interfaces needed to integrate with marionette smart contract",
+  "repository": "git@github.com:skalenetwork/marionette-interfaces.git",
+  "author": "Dmytro Stebaiev <dmytro@skalelabs.com>",
+  "license": "AGPL-3.0",
+  "files": [
+    "**/*.sol"
+  ],
+  "scripts": {
+    "compile": "npx hardhat clean && npx hardhat compile",
+    "cleanCompile": "npx hardhat clean && yarn compile",
+    "cspell": "yarn exec cspell \"**/*\"",
+    "no-hooks": "git config core.hooksPath .git/hooks",
+    "hooks": "git config core.hooksPath .githooks || true",
+    "fullCheck": "yarn lint && yarn slither",
+    "lint": "npx solhint \"contracts/**/*.sol\"",
+    "slither": "slither ."
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "cspell": "^8.8.3",
+    "hardhat": "^2.22.4",
+    "solhint": "^5.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "yarn@4.2.2",
+  "dependencies": {
+    "@skalenetwork/ima-interfaces": "^2.0.0"
+  }
+}

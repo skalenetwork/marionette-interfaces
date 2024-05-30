@@ -1,0 +1,25 @@
+{
+  "extends": "solhint:all",
+  "rules": {
+    "foundry-test-functions": ["off"],
+
+    "avoid-tx-origin": "error",
+    "check-send-result": "error",
+    "code-complexity": "error",
+    "compiler-version": ["error","^0.8.0"],
+    "contract-name-camelcase": "error",
+    "explicit-types": "error",
+    "func-name-mixedcase": "error",
+    "function-max-lines": "error",
+    "gas-named-return-values": "error",
+    "max-states-count": "error",
+    "no-empty-blocks": "error",
+    "no-global-import": "error",
+    "no-inline-assembly": "error",
+    "no-unused-vars": "error",
+    "ordering": "error",
+    "private-vars-leading-underscore": "error",
+    "state-visibility": "error",
+    "visibility-modifier-order": "error"
+  }
+}
