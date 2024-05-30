@@ -44,7 +44,7 @@ library Encoder {
         return abi.encode(receiver, value, data);
     }
 
-    function decodeFunctionCall(bytes calldata data) private pure returns (FunctionCall memory functionCall) {
+    function decodeFunctionCall(bytes calldata data) internal pure returns (FunctionCall memory functionCall) {
         (functionCall.receiver, functionCall.value, functionCall.data) = abi.decode(data, (address, uint256, bytes));
     }
 
