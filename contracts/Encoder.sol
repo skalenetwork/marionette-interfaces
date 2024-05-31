@@ -35,7 +35,7 @@ library Encoder {
     function encodeFunctionCall(
         address receiver,
         uint256 value,
-        bytes calldata data
+        bytes memory data
     )
         internal
         pure
