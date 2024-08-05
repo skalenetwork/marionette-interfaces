@@ -28,6 +28,6 @@
   },
   "packageManager": "yarn@4.2.2",
   "dependencies": {
-    "@skalenetwork/ima-interfaces": "^2.0.0"
+    "@skalenetwork/ima-interfaces": "2.0.0-develop.66"
   }
 }
