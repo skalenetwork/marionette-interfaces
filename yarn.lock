@@ -1239,12 +1239,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@skalenetwork/ima-interfaces@npm:2.0.0-develop.66":
-  version: 2.0.0-develop.66
-  resolution: "@skalenetwork/ima-interfaces@npm:2.0.0-develop.66"
+"@skalenetwork/ima-interfaces@npm:^2.0.0-paymaster.0":
+  version: 2.0.0
+  resolution: "@skalenetwork/ima-interfaces@npm:2.0.0"
   dependencies:
-    "@skalenetwork/skale-manager-interfaces": "npm:^3.1.0"
-  checksum: 10c0/5e2eccd6aa7912097ac4bfa9e20849e59cc19db1f4b285a7cd44b8ddcd09d9b58f6f21eb21caf0007b9a72996c9a1952a27a9400d7264d05ecfea44703a774b9
+    "@skalenetwork/skale-manager-interfaces": "npm:^0.1.2"
+  checksum: 10c0/140f850f22c2e4b9b4da758fd706cd57e5cec6da496c8c2c61a88778e46e906b209940f3a772cd483c808fcb0b5cb21c4ae5de7df54f5502cb4974124355ed97
   languageName: node
   linkType: hard
 
@@ -1252,7 +1252,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@skalenetwork/marionette-interfaces@workspace:."
   dependencies:
-    "@skalenetwork/ima-interfaces": "npm:2.0.0-develop.66"
+    "@skalenetwork/ima-interfaces": "npm:^2.0.0-paymaster.0"
     "@types/node": "npm:^20.12.12"
     cspell: "npm:^8.8.3"
     hardhat: "npm:^2.22.4"
@@ -1262,10 +1262,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@skalenetwork/skale-manager-interfaces@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "@skalenetwork/skale-manager-interfaces@npm:3.1.0"
-  checksum: 10c0/469a16b7af9faceccb7ebd7ab12f42a256a704ae83d473cf629ef7d21efbba2f1568d8208842753eb500373ba8bb48d0241f463e9f7f1890d1cb54f375c90c3d
+"@skalenetwork/skale-manager-interfaces@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "@skalenetwork/skale-manager-interfaces@npm:0.1.2"
+  checksum: 10c0/8a5c67003700ef223377ee9b4faee4e519d727f91786ae86b8de6f19f6bbdabb7a259f1669c7217480de93e17f9b9205d3ac715d5876a9383500b2acbfd670a8
   languageName: node
   linkType: hard
 
